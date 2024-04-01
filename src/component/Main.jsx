@@ -49,12 +49,14 @@ const Main = () => {
                 Forgotten password?
               </label>
               <hr />
+              <div className="d-flex justify-content-center align-items-center">
               <Button variant="success" type="submit" className="btn2">
                 Create new account
               </Button>
+              </div>
             </Form>
           </div>
-          <h5 className="text-end create ">
+          <h5 className="d-none d-md-block text-end create">
             <strong>
               <a href="#" className="text-dark text-decoration-none">
                 Create a Page
@@ -65,7 +67,7 @@ const Main = () => {
         </div>
       </main>
 
-      <Card className= "container border-none">
+      <Card className= "d-none d-md-block container border-none">
         <Card.Header className="d-flex justify-content-center">
     
           English (UK) Hausa Français (France) Português (Brasil) Español Bahasa
@@ -79,7 +81,7 @@ const Main = () => {
           dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Modi, dicta?
         </Card.Header>
-        <Card.Title className="d-flex justify-content-start fs-">
+        <Card.Title className="d-flex justify-content-start fs-6">
           Meta © 2024
         </Card.Title>
       </Card>
